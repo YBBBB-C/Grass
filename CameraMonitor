@@ -1,0 +1,26 @@
+//this file tells how to initialize the camera board in spresense kit
+
+import processing .serial.*;
+import java.io.*;
+Serial myPort;
+
+PImage img;
+final static int WIDTH  = 320;
+final static int HEIGHT = 240;
+boolean started = false;
+int serialTimer = 0;
+int total =  0;
+int x = 0;
+int y = 0;
+
+void setup(){
+  size(320,240);
+  background(0);
+  img = creatImafe(WIDTH,HEIGHT,RGB);
+  myPort = new Serial(this, Serial.list()[0],2000000);
+  myPort.clear();
+  println("setup finished");
+  delay(2000);//wait for stable connection
+
+
+}
