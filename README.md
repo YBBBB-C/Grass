@@ -2,7 +2,11 @@
 area A 的经纬度：53°24′5″N 2°58′1″W
 area B 的经纬度：53°24′5″N 2°58′2″W
 area C 的经纬度：53°24′4″N 2°58′1″W
-area C 的经纬度：53°24′4″N 2°58′2″W
+area D 的经纬度：53°24′4″N 2°58′2″W
+
+area E：53°41′1″N 2°97′2″W
+area f: 53°43′2″N 2°97′4″W
+
 
 #records below give the label of pictures in the 'grass' file, with 1 meaning 'suitable' for grazing, 0, 'unsuitable'. The first label(number) after the first comma is the label related to a feature called 'bare rate', while the last integer gives the label corresponding to 'contain pasture SR or not'.
 
